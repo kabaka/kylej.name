@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* { margin: 0; padding: 0; }
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,img,input,textarea,p,blockquote,th,td { 
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol,ul {
+	list-style: none;
+}
+caption,th {
+	text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q:before,q:after {
+	content: '';
+}
+abbr,acronym { border: 0;
+}
+body {
+  width: 900px;
+  font-family: "Times New Roman";
+  font-size: 16px;
+  margin: 10px auto;
+}
+a, a:visited {
+  text-decoration: none;
+  color: #55F;
+}
+a:active, a:hover {
+  color: #11F;
+  border-bottom: 1px solid #000;
+}
+
+#header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+#header p#title {
+  font-size: 60px;
+  letter-spacing: 25px;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+}
+#header p#nav {
+  font-size: 20px;
+}
+#header p#nav a {
+  margin: 0 30px;
+  text-transform: lowercase;
+}
+
+#footer {
+  margin-top: 25px;
+  border-top: 1px solid #000;
+  text-align: center;
+  font-size: 12px;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.content h2 {
+  width: 100%;
+  font-size: 23px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #000;
+}
+.content h3 {
+  font-size: 20px;
+}
+.content h4 {
+  font-size: 18px;
+}
+.content h5 {
+  font-size: 16px;
+}
+.content h6 {
+  font-size: 15px;
+}
+.content h2, .content h3, .content h4, .content h5, .content h6 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.content table {
+  width: 100%;
+}
+.content thead {
+  background-color: #000;
+  color: #FFF;
+}
+.content thead th {
+  font-weight: bold;
+  text-align: center;
+}
+.content tbody tr:hover {
+  background-color: #DDD;
+}
+.content ul {
+  list-style-type: disc;
+}
+.content ol {
+  list-style-type: decimal;
+}
+.content ol, .content ul {
+  padding-left: 20px;
+}
+.content p, .content ul, .content ol, .content code {
+  margin-bottom: 10px;
+}
+.content em {
+  font-style: italic;
+}
+.content strong {
+  font-weight: bold;
+}
+.content code {
+  display: block;
+  font-size: 14px;
+  padding-left: 20px;
+}
+.content p code {
+  display: inline;
+  margin-bottom: 0;
+  padding-left: 0;
+  border: 1px dashed #AAA;
+  background-color: #EEE;
+}
+.content img {
+  display: block;
+  margin: 10px auto;
+}
