@@ -1,10 +1,7 @@
 # Home
 
-There used to be a blog here. Then I realized that I had not posted anything
-new in three years and nobody had ever visited.
-
-I am still populating the new site with content. If you are looking for one of
-the old pages, it still exists, but is archived elsewhere.
+I am Kyle Johnson. I write software, take photographs, and spend way too much
+time on the Internet.
 
 ## Contact Info
 
