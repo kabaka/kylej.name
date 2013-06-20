@@ -27,7 +27,7 @@ Rationale:
   if it is worth my time or not.
 * Bots' *!mail* commands and other such message delivery facilities are
   absolutely pointless when my client is connected, as I will already have read
-  the messages when I review my highlights, and will not want need them to be
+  the messages when I review my highlights, and will not need them to be
   spammed to everyone again.
 
 ## Disconnected
