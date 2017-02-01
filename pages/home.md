@@ -1,35 +1,24 @@
 # Home
 
-I am Kyle Johnson. I write software, take photographs, and spend way too much
-time on the Internet.
+I am Kyle Johnson. I architect and maintain cloud-scale systems, and write
+software as often as I can.
 
 ## Contact Info
 
 * Social Networking
-  * [Google+](http://gplus.to/kabaka)
+  * [Google+](https://plus.google.com/u/0/117495881647553675055)
   * [Facebook](https://www.facebook.com/kyle.w.j)
+  * [LinkedIn](https://www.linkedin.com/in/kylewj/)
   * [Last.fm](http://www.last.fm/user/KabakaDragon)
   * [deviantART](http://kabakalion.deviantart.com/)
   * [YouTube](https://www.youtube.com/user/KabakaLion)
 * Email - [kyle@vacantminded.com](mailto:kyle@vacantminded.com)
 * Instant Messenger
-  * AIM - KabakaDragon
-  * ICQ - 226333053
-  * Yahoo! Messenger - KabakaDragon
-  * Windows Live Messenger - kyle@vacantminded.com
-  * Google Talk - kabakadragon@gmail.com
-* IRC - Nick: Kabaka
+  * If you have my mobile phone number, [Signal](https://whispersystems.org/)
+    or [Telegram](https://telegram.org/).
+  * Hangouts - kyle@vacantminded.com
+* IRC - Nick: Kabaka (_Note: presently, I am not on IRC, but this is temporary._)
   * [Anthrochat](irc://irc.anthrochat.net/)
   * [Ars Technica](irc://irc.arstechnica.com/)
-  * [Foonetic](irc://irc.foonetic.net/)
   * [Freenode](irc://chat.freenode.net/)
-  * [Gamesurge](irc://irc.gamesurge.net/)
-  * [GIMP](irc://irc.gimp.org/)
-  * [Mozilla](irc://irc.mozilla.org/)
-  * [OFTC](irc://irc.oftc.net/)
-  * [PonyChat](irc://irc.ponychat.net/) (staff)
-  * [Quakenet](irc://irc.quakenet.org/)
-  * [StaticBox](irc://irc.staticbox.net/)
-  * [Thinstack](irc://irc.thinstack.net/)
-  * and probably some others (I use IRC too much)
 
