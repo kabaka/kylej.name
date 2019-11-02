@@ -1,9 +1,9 @@
 # Images
 
 You may find the most current and best of my images at
-[kyle.smugmug.com](https://kylej.smugmug.com/).
+[gallery.kyle.photography](https://gallery.kyle.photography/).
 
-Other locations include:
+I somtimes upload to these other sites, but not often:
 
 * [Flickr](https://www.flickr.com/photos/kabakadragon)
 * [DeviantArt](https://kabakalion.deviantart.com/)

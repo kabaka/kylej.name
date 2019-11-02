@@ -1,0 +1,28 @@
+{
+  "name": "kylej.name",
+  "version": "1.0.0",
+  "description": "kylej.name web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabaka/kylej.name.git"
+  },
+  "author": "Kyle Johnson <kyle@vacantminded.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabaka/kylej.name/issues"
+  },
+  "homepage": "https://github.com/kabaka/kylej.name#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "gulp": "^4.0.2",
+    "gulp-markdown": "^5.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-tap": "^2.0.0",
+    "handlebars": "^4.5.1",
+    "title-case": "^2.1.1"
+  }
+}
