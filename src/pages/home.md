@@ -16,4 +16,3 @@ software as often as I can.
   * If you have my mobile phone number, find me on [Telegram](https://telegram.org/).
 * IRC
   * I don't really use IRC anymore. 😢
-
