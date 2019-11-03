@@ -30,9 +30,9 @@ abbr,acronym { border: 0;
 }
 body {
   max-width: 900px;
-  font-family: "Times New Roman";
-  font-size: 16px;
-  margin: 10px auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  margin: 0.5em auto;
 }
 a, a:visited {
   text-decoration: none;
@@ -46,33 +46,33 @@ a:active, a:hover {
 
 #header {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-bottom: 0.75em;
   border-bottom: 1px solid #000;
 }
 #header p#title {
-  font-size: 60px;
-  letter-spacing: 25px;
-  margin-bottom: 10px;
+  font-size: 3.75em;
+  letter-spacing: 0.4em;
+  margin-bottom: 0.2em;
   text-transform: lowercase;
-  overflow: hidden;
+  overflow-wrap: break-word;
 }
 #header p#nav {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 #header p#nav a {
   display: inline-block;
-  margin: 0 30px 5px 30px;
+  margin: 0 1.5em 0.2em 1.5em;
   text-transform: lowercase;
   border: none;
 }
 
 #footer {
-  margin-top: 25px;
+  margin-top: 2em;
   border-top: 1px solid #000;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
 .content {
@@ -83,30 +83,30 @@ a:active, a:hover {
 .content h1 {
   width: 100%;
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 10px;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 .content h2 {
   width: 100%;
-  font-size: 23px;
-  margin-bottom: 10px;
+  font-size: 1.5em;
+  margin-bottom: 1em;
   border-bottom: 1px dotted #000;
 }
 .content h3 {
-  font-size: 20px;
+  font-size: 1.2em;
 }
 .content h4 {
-  font-size: 18px;
+  font-size: 1.1em;
 }
 .content h5 {
-  font-size: 16px;
+  font-size: 1em;
 }
 .content h6 {
-  font-size: 15px;
+  font-size: 0.9em;
 }
 .content h2, .content h3, .content h4, .content h5, .content h6 {
-  margin-bottom: 15px;
+  margin-bottom: 0.75em;
   font-weight: bold;
 }
 
@@ -136,10 +136,13 @@ a:active, a:hover {
   list-style-type: decimal;
 }
 .content ol, .content ul {
-  padding-left: 20px;
+  padding-left: 1.25em;
+}
+.content li {
+  line-height: 1.25em;
 }
 .content p, .content ul, .content ol, .content code {
-  margin-bottom: 10px;
+  margin-bottom: 1em;
 }
 .content em {
   font-style: italic;
@@ -149,8 +152,8 @@ a:active, a:hover {
 }
 .content code {
   display: block;
-  font-size: 14px;
-  padding-left: 20px;
+  font-size: 0.85em;
+  padding-left: 2em;
   overflow: scroll;
 }
 .content p code {
@@ -161,6 +164,6 @@ a:active, a:hover {
 }
 .content img {
   display: block;
-  margin: 10px auto;
+  margin: 0.5em auto;
   max-width: 100%;
 }
