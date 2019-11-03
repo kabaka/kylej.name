@@ -7,6 +7,15 @@ const path = require('path');
 const titleCase = require('title-case');
 const date = new Date();
 
+function makeTitle(str) {
+    str = titleCase(str);
+
+    // Space cases:
+    str = str.replace("Irc", "IRC");
+
+    return str;
+}
+
 // TODO: break this into multiple tasks.
 exports.default = () => {
     // Start with the global template.
@@ -22,7 +31,7 @@ exports.default = () => {
                     var name = path.basename(file.path, ".html");
 
                     var data = {
-                        title: titleCase(name),
+                        title: makeTitle(name),
                         contents: file.contents.toString(),
                         year: date.getFullYear()
                     };
