@@ -29,7 +29,7 @@ q:before,q:after {
 abbr,acronym { border: 0;
 }
 body {
-  width: 900px;
+  max-width: 900px;
   font-family: "Times New Roman";
   font-size: 16px;
   margin: 10px auto;
@@ -37,6 +37,7 @@ body {
 a, a:visited {
   text-decoration: none;
   color: #55F;
+  word-wrap: break-word;
 }
 a:active, a:hover {
   color: #11F;
@@ -47,7 +48,7 @@ a:active, a:hover {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #000;
 }
 #header p#title {
@@ -55,12 +56,14 @@ a:active, a:hover {
   letter-spacing: 25px;
   margin-bottom: 10px;
   text-transform: lowercase;
+  overflow: hidden;
 }
 #header p#nav {
   font-size: 20px;
 }
 #header p#nav a {
-  margin: 0 30px;
+  display: inline-block;
+  margin: 0 30px 5px 30px;
   text-transform: lowercase;
 }
 
@@ -120,6 +123,11 @@ a:active, a:hover {
 .content tbody tr:hover {
   background-color: #DDD;
 }
+.content tbody a {
+  width: 100%;
+  display: inline-block;
+  border: none;
+}
 .content ul {
   list-style-type: disc;
 }
@@ -142,6 +150,7 @@ a:active, a:hover {
   display: block;
   font-size: 14px;
   padding-left: 20px;
+  overflow: scroll;
 }
 .content p code {
   display: inline;
@@ -152,4 +161,5 @@ a:active, a:hover {
 .content img {
   display: block;
   margin: 10px auto;
+  max-width: 100%;
 }
